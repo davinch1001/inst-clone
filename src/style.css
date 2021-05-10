@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fafafa;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background: white;
+    border-bottom:1px solid #dbdbdb;
+
+}
+
+
+.inst-logo-header{
+    width: 130px;
+    height: 53px;
+
+}
+
+.inst-logo-block{
+    line-height: 69px;
+    margin: 10px;
+}
+
+.back-btn{
+    color:red;
+    display: flex;
+    align-content: center;
+    margin-top: 24px;
+    float: right;
+    position: absolute;
+    left: 3px;
+    top: 0;
+}
+
+
+
+.container{
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+}
+.login-page{
+    height: 100vh;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    width: 350px;
+    height: 380px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form input{
+    width: 268px;
+    height: 36px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.login-form input::placeholder{
+    padding-left: 5px;
+}
+
+.album-block{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
+    border: 1px solid #dbdbdb;
+    margin: 7px;
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+.album-link-number{
+    width: 150px;
+    height: 150px;
+    line-height:123px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.album-list-block{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album-link{
+    height: 45px;
+    border-top: 1px solid #dbdbdb;
+    line-height: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    background: white;
+
+}
+
+.inst-logo {
+    margin: 10px 10px;
+    width: 191px;
+    height: 71px;
+}
+
+.login-btn{
+    width: 268px;
+    height: 30px;
+    background: #0095f6;
+    border-radius: 3px ;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.or-span{
+    padding: 10px;
+    color: #8e8e8e;
+}
+
+.facebook-link{
+    text-decoration: none;
+    margin-top: 24px;
+    color: #385185;
+    font-weight:700;
+    font-size: 14px;
+}
+
+.facebook-logo{
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.password-link{
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #00376b;
+}
+
+.auth-block{
+    width: 350px;
+    height: 63px;
+    border: 1px solid #dbdbdb;
+    margin: 10px;
+    text-align: center;
+    line-height: 63px;
+    font-size: 14px;
+}
+
+.auth-link{
+    font-weight: bold;
+    color:#0095f6;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+.album-img-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.album-img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #dbdbdb;
+    margin: 8px;
+}
